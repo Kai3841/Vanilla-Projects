@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <a href="" class="logo">hello</a>
+                <div class="menu-btn">
+                        <div class="menu-btn__burger">
+                             
+                        </div>
+                    </div>
+
+        <ul class="mainMenu">
+            <li><a href="">Home</a></li>
+            <li><a href="">About</a></li>
+            <li><a href="">Lorem</a></li>
+            <li><a href="">hello</a></li>
+        </ul>
+    </header>
+    <section>
+        <h2 id="text"><span>Lorem ipsum dolor sit.</span><br>Among Us.</h2>
+
+    </section>
+    <div class="conta">
+        <h2>Parallax boii</h2>
+        <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum asperiores magni, ullam sapiente qui
+            molestias eaque aperiam. Non ullam quibusdam dolores consectetur, cupiditate maiores laudantium earum,
+            commodi dolore ipsum ipsam? Sequi ducimus molestiae, soluta nobis pariatur nulla eligendi fugit, doloremque
+            sed eaque animi,<br> repellat magni! Optio cupiditate nihil fuga inventore laborum, odit consequuntur at
+            perferendis voluptatibus, magnam voluptate! <br> Deleniti placeat asperiores eos, soluta ratione cumque autem
+            neque molestias tempora repellat <br> minus labore quibusdam? At exercitationem beatae corrupti. Delectus nobis
+            inventore vel doloremque quasi dolor autem, neque velit labore voluptates nisi placeat maxime, nihil
+            cupiditate, fugit <br> necessitatibus? Pariatur mollitia <br> dignissimos, aliquam perspiciatis amet veritatis
+            aspernatur libero accusamus maiores magni recusandae harum laboriosam ea facilis illum doloribus doloremque
+            reiciendis earum iusto. Hic velit, assumenda accusantium quod amet vero explicabo aut similique deleniti
+            dolores, aliquam laboriosam excepturi <br> fugit suscipit! Rerum repudiandae omnis magni, nemo accusamus earum
+            quisquam blanditiis similique libero beatae voluptatum asperiores non animi perspiciatis ea officia eaque,
+            rem quia <br> sed expedita ipsa minus exercitationem vero. Nesciunt deserunt labore saepe tempore distinctio
+            voluptate, pariatur natus laudantium magni accusamus earum doloremque delectus. Ratione quis nobis mollitia.
+            Quis quod dolorem eaque iure optio cumque natus accusantium nam totam, soluta animi saepe consequuntur rem
+            ullam corporis eum, quasi quas <br> nesciunt veritatis quaerat voluptatibus sunt harum quam! Nulla blanditiis
+            natu<br> incidunt adipisci. Natus ea similique possimus ab maiores, exercitationem facilis sint quisquam sequi
+            explicabo deserunt a temporibus <br> debitis aut, quidem unde quo quia accusantium, sunt vitae nam error
+            delectus! Quisquam tempora delectus similique soluta obcaecati doloribus autem enim perferendis quas, ad
+            praesentium non possimus? Ipsam error consequatur laudantium vitae nihil beatae a est quibusdam itaque
+            voluptates repudiandae corrupti quas obcaecati, ducimus modi delectus libero quasi dolores eos recusandae
+            assumenda natus! Deleniti, dolores ex. Voluptates cumque, reiciendis, veritatis eaque alias temporibus
+            commodi doloremque unde aspernatur optio dolore!
+            <br>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam reiciendis ipsum consectetur accusamus velit
+            adipisci. Voluptate ullam libero modi dicta maxime laborum? Quia fuga voluptatum, possimus sint officia
+            expedita laboriosam amet consequuntur ducimus deserunt aspernatur voluptas debitis iusto vel fugit similique
+            excepturi necessitatibus officiis quaerat, consequatur sapiente id facilis. Eveniet incidunt, voluptates
+            aliquam possimus dolor modi omnis mollitia repellat repellendus ipsum officiis eum voluptas hic, aperiam
+            accusamus facilis laudantium! Accusamus minima autem obcaecati deserunt et velit earum voluptatem eligendi
+            cum! Quis harum quisquam consequatur dolores possimus explicabo, doloribus nobis sunt exercitationem rem
+            vero aliquam voluptate, aliquid repellat excepturi quod error?
+            <br>
+        </p>
+    </div>
+
+    <script>
+    const menuB = document.querySelector('.menu-btn');
+    const mainMenu = document.querySelector('mainMenu');
+    let menuA = false;
+    menuB.addEventListener('click',() => {
+    if (!menuA) {
+        menuB.classList.add('open');
+        menuA = true;
+    }else{
+        menuB.classList.remove('open');
+        menuA = false;
+    }
+});
+    </script>
+</body>
+
+</html>
