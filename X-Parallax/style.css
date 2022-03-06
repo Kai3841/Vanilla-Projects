@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    background:cornflowerblue;
+}
+section{
+    position: relative;
+    width:100%;
+    height: 100vh;
+    overflow: hidden;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding:100px 150px;
+}
+a{
+    text-decoration: none;
+
+}
+section header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding:40px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+}
+section header .logo{
+    position: relative;
+    font-size: 1.5em;
+    color:whitesmoke;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+section header .toggle{
+    position: relative;
+    width: 40px;
+    height:40px;
+    background:url(../../Downloads/menu.png);
+    background-size: 30px;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor:pointer;
+
+}
+.bg{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-position: center;
+}
+.bird{
+    position: absolute;
+    bottom:105px;
+    right:100px;
+    max-height: 60%;
+    border: 6px solid white;
+    border-radius: 260px;
+
+}
+.content{
+    position: absolute;
+    left:100px;
+    z-index: 2;
+    max-width: 608px;
+}
+.content h2{
+    font-size: 3.5em;
+    color:palegreen;
+    font-weight: 400;
+    line-height: 1em;
+}
+.content p{
+    color:wheat;
+    margin-top: 5px;
+}
+.content a{
+    display:inline-block;
+    padding:10px 20px;
+    background:wheat;
+    color:darkblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    margin-top: 20px;
+    font-weight: 600;
+    letter-spacing: 2px;
+}

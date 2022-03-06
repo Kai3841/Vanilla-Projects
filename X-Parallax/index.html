@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <a href="" class="logo">BOB</a>
+            <div class="toggle"></div>
+        </header>
+        <img src="img/pexels-hristo-fidanov-1252890.jpg" class="bg" alt="">
+        <img src="img/ce7.png" class="bird" alt="">
+        <div class="content">
+            <h2>Lorem ipsum dolor sit.<br><span>Banana</span></h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere numquam officia exercitationem repellat.
+                Provident fugit a blanditiis. Temporibus recusandae veniam sapiente facere quisquam laudantium soluta
+                ut, assumenda consequatur cumque rerum? Obcaecati, delectus eveniet. Ad ex at fuga distinctio asperiores
+                possimus ratione deleniti, veniam, consequatur cupiditate debitis iusto aliquam accusantium enim aliquid
+                </p>
+                <a href="#">Explore</a>
+        </div>
+    </section>
+    <script>
+    document.addEventListener("mousemove",function(e){
+        const bg = document.querySelector('.bg');
+        const bird = document.querySelector('.bird');
+        const content = document.querySelector('.content');
+        bg.style.width = 100 + e.pageX/100 + '%';
+        bg.style.height = 100 + e.pageX/100 + '%';
+        bird.style.right = 100 + e.pageX/2 +'px';
+        content.style.left = 100 + e.pageX/2.5 + 'px';
+    });
+    </script>
+</body>
+
+</html>
